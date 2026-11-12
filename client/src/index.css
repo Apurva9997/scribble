@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  font-family: "Nunito", ui-sans-serif, system-ui, sans-serif;
+  background: #1b1140;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(255, 196, 61, 0.18), transparent 55%),
+    radial-gradient(900px 500px at 110% 0%, rgba(255, 92, 138, 0.2), transparent 50%),
+    linear-gradient(180deg, #2a1760 0%, #1a103c 42%, #120c28 100%);
+}
+
+#root {
+  min-height: 100dvh;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.display {
+  font-family: "Fredoka", "Nunito", sans-serif;
+}
+
+.chat-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #6d59b5 transparent;
+}
+
+canvas {
+  touch-action: none;
+}
